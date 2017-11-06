@@ -18,7 +18,7 @@ import com.zevol.library.R;
 import com.zevol.library.listener.OnRatingChangedListener;
 
 /**
- * 说明<br/>
+ * 自定义的评分控件<br/>
  * GitHub: https://github.com/SilentHi/ZevolLibraryDemo.git<br/>
  * E_mail: 212448124@qq.com<br/>
  * Created by Zevol on 2017/11/6 0006.
