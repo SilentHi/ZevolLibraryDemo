@@ -10,6 +10,7 @@
     <include layout="@layout/view_top_tool_bar"/>
 
     <com.zevol.library.widget.ZLPasswordEditText
+        android:id="@+id/etMain"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="32dp"
@@ -20,6 +21,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:text="消息弹框"/>
+        android:text="@string/btnMessageDialog"/>
 
 </android.support.v7.widget.LinearLayoutCompat>

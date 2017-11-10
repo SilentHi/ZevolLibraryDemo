@@ -6,6 +6,7 @@ import android.app.Application;
 import com.blankj.ALog;
 import com.blankj.utilcode.util.SPUtils;
 import com.blankj.utilcode.util.Utils;
+import com.zhouyou.http.EasyHttp;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -36,6 +37,8 @@ public class ZLApplication extends Application {
         Utils.init(this);
         //配置 ALog
         ALog.init(this);
+        //配置 EasyHttp
+        EasyHttp.init(this);
     }
 
     /**

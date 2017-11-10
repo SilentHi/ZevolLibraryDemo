@@ -1,13 +1,20 @@
 package com.zevol.library.demo.activity;
 
+import com.blankj.ALog;
 import com.blankj.utilcode.util.ToastUtils;
 import com.zevol.library.activity.TopToolbarActivity;
 import com.zevol.library.demo.R;
 import com.zevol.library.demo.application.ZLDApplication;
 import com.zevol.library.dialog.MessageDialog;
 import com.zevol.library.listener.OnMessageDialogSureListener;
+import com.zevol.library.widget.ZLPasswordEditText;
+
+import butterknife.BindView;
 
 public class MainActivity extends TopToolbarActivity {
+
+    @BindView(R.id.etMain)
+    ZLPasswordEditText etMain;
 
     @Override
     protected int bindLayoutId() {
@@ -26,6 +33,7 @@ public class MainActivity extends TopToolbarActivity {
         super.onClick(id);
         switch (id) {
             case R.id.btnMessageDialog:
+                ALog.e(etMain.getText().toString());
                 showMessageDialog();
                 break;
         }
