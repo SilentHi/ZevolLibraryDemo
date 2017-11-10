@@ -8,7 +8,7 @@
 
 
 ## 最新版本
-[ ![LatestVersion](https://api.bintray.com/packages/zevol/maven/ZevolLibrary/images/download.svg) ](https://bintray.com/zevol/maven/ZevolLibrary/_latestVersion)
+[ ![LatestVersion](https://api.bintray.com/packages/zevol/maven/ZevolLibrary/images/download.svg) ](1.0.3)
 
 ## 查看所有版本
 [![jcenter](https://img.shields.io/badge/Jcenter-Latest%20Release-orange.svg)](https://jcenter.bintray.com/com/zevol/library//ZevolLibrary/)
