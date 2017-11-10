@@ -8,18 +8,18 @@
 
 
 ## 最新版本
-[ ![Download](https://api.bintray.com/packages/zevol/maven/ZevolLibrary/images/download.svg) ](https://bintray.com/zevol/maven/ZevolLibrary/_latestVersion)
+[ ![LatestVersion](https://api.bintray.com/packages/zevol/maven/ZevolLibrary/images/download.svg) ](https://bintray.com/zevol/maven/ZevolLibrary/_latestVersion)
 
 ## 查看所有版本
-[![jcenter](https://img.shields.io/badge/Jcenter-Latest%20Release-orange.svg)](https://jcenter.bintray.com/zevol/maven/ZevolLibrary/)
+[![jcenter](https://img.shields.io/badge/Jcenter-Latest%20Release-orange.svg)](https://jcenter.bintray.com/com/zevol/library//ZevolLibrary/)
 
 
 
 ## 权限说明
 
 本库要求SDK最低版本为16，代码中配置如下
-    ```
-    android {
+```
+android {
         ...
         defaultConfig {
             ...
@@ -29,7 +29,7 @@
         }
         ...
     }
-    ```
+```
 
 ### build.gradle设置
 ```
