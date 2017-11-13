@@ -7,12 +7,8 @@
 [![github](https://img.shields.io/badge/GitHub-SilentHi-green.svg)](https://github.com/SilentHi)
 
 
-## 最新版本
-[ ![LatestVersion](https://api.bintray.com/packages/zevol/maven/ZevolLibrary/images/download.svg) ](1.0.3)
-
 ## 查看所有版本
 [![jcenter](https://img.shields.io/badge/Jcenter-Latest%20Release-orange.svg)](https://jcenter.bintray.com/com/zevol/library//ZevolLibrary/)
-
 
 
 ## 权限说明
@@ -24,7 +20,6 @@ android {
         defaultConfig {
             ...
             minSdkVersion 16
-            targetSdkVersion 26
             ...
         }
         ...
